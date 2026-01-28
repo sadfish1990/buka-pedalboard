@@ -1,5 +1,5 @@
 import WebAudioModule from "../../plugins/utils/sdk/src/WebAudioModule.js";
-import PedalBoardNode from "./Audio/PedalBoardNode.js";
+import PedalBoardNode from "./Audio/PedalBoardNodeFIXED.js";
 import { createElement } from "./Gui/index.js";
 
 /**
