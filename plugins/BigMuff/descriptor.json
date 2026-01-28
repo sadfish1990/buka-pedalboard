@@ -1,11 +1,12 @@
 {
-    "name": "Faust BigMuff",
-    "vendor": "Michel Buffa",
-    "description": "",
+    "name": "BigMuff",
+    "vendor": "Buka / WAM2",
+    "description": "Big Muff Pi Fuzz",
     "version": "1.0.0",
     "apiVersion": "2.0.0",
-    "thumbnail": "screenshot.png",
-    "keywords": ["faust"],
-    "isInstrument": false,
-    "website": ""
+    "thumbnail": "bigmuff.png",
+    "keywords": [
+        "🔥 Distorsión / Overdrive / Fuzz"
+    ],
+    "isInstrument": false
 }

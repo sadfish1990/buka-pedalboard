@@ -1,0 +1,12 @@
+{
+    "name": "MistressFlanger",
+    "vendor": "Buka / WAM2",
+    "description": "Electric Mistress Clone",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "mistress.png",
+    "keywords": [
+        "🎛️ Modulación (Chorus / Flanger / Phaser / Trem / Rotary)"
+    ],
+    "isInstrument": false
+}

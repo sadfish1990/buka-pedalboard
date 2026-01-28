@@ -1,11 +1,12 @@
 {
-  "name": "TS9 Overdrive",
-  "vendor": "WebAudioModule",
-  "description": "Overdrive written in Faust",
+  "name": "TS9_OverdriveFaustGenerated",
+  "vendor": "Buka / WAM2",
+  "description": "Tube Screamer Overdrive",
   "version": "1.0.0",
   "apiVersion": "2.0.0",
-  "thumbnail": "screenshot.png",
-  "keywords": ["faust"],
-  "isInstrument": false,
-  "website": ""
+  "thumbnail": "ts9_green.png",
+  "keywords": [
+    "🔥 Distorsión / Overdrive / Fuzz"
+  ],
+  "isInstrument": false
 }

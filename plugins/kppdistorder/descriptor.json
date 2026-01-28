@@ -1,11 +1,12 @@
 {
-  "name": "KPP distorder",
-  "vendor": "Faust IDE",
-  "description": "A WAM written in Faust with a generated GUI",
+  "name": "kppdistorder",
+  "vendor": "Faust",
+  "description": "KPP Distorder",
   "version": "1.0.0",
-  "apiVersion": "1.0.0",
-  "thumbnail": "default.png",
-  "keywords": ["faust", "distorder"],
-  "isInstrument": false,
-  "website": ""
+  "apiVersion": "2.0.0",
+  "thumbnail": "distorder.png",
+  "keywords": [
+    "🔥 Distorsión / Overdrive / Fuzz"
+  ],
+  "isInstrument": false
 }

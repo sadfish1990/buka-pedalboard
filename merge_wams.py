@@ -1,0 +1,76 @@
+
+import json
+
+local_wams_path = "/home/buka/Documentos/wam2/PedalBoard/src/wams.json"
+
+wasabi_repo = {
+  "name": "Wasabi first repo",
+  "root": "optional_abs_url",
+  "plugs": {
+    "zitaRev": "https://mainline.i3s.unice.fr/WebAudioPluginBank/Faust/ZitaRevV3",
+    "quadrafuzz": "https://mainline.i3s.unice.fr/WebAudioPluginBank/WASABI/QuadraFuzz3",
+    "blipper": "https://mainline.i3s.unice.fr/WebAudioPluginBank/Oliver-Larkin2/Blipper",
+    "dualpitchshifter": "https://mainline.i3s.unice.fr/WebAudioPluginBank/Oliver-Larkin2/DualPitchShifter",
+    "stereofreqshifter": "https://mainline.i3s.unice.fr/WebAudioPluginBank/Oliver-Larkin2/StereoFrequencyShifter",
+    "weirdphaser": "https://mainline.i3s.unice.fr/WebAudioPluginBank/Oliver-Larkin2/WeirdPhaser",
+    "thruzeroflanger": "https://mainline.i3s.unice.fr/WebAudioPluginBank/Oliver-Larkin2/ThruZeroFlanger",
+    "pingpongdelay": "https://mainline.i3s.unice.fr/WebAudioPluginBank/WASABI/PingPongDelay3",
+    "stereoflanger": "https://mainline.i3s.unice.fr/WebAudioPluginBank/Mike-AUBENAS/StereoFlanger",
+    "channelmixeur": "https://mainline.i3s.unice.fr/WebAudioPluginBank/Mike-AUBENAS/MixingConsole/ChannelMixer",
+    "mixer": "https://mainline.i3s.unice.fr/WebAudioPluginBank/Mike-AUBENAS/MixingConsole/Mixer",
+    "minilogue": "https://mainline.i3s.unice.fr/WebAudioPluginBank/Etev/Minilogue",
+    "wah": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/wah_effect/WahVox",
+    "CleanMachine": "https://mainline.i3s.unice.fr/WebAudioPluginBank/Buffa/CleanMachine",
+    "DrumMachine": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/drum_machine/drumMachine",
+    "DistoMachine": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/disto_machine/disto",
+    "Metalachine": "https://mainline.i3s.unice.fr/WebAudioPluginBank/Buffa/MetalMachine/metal",
+    "TunerMachine": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/tuner_machine/tuner",
+    "DeadGate": "https://mainline.i3s.unice.fr/WebAudioPluginBank/Faust/DeadGate",
+    "BlueDream": "https://mainline.i3s.unice.fr/WebAudioPluginBank/Faust/BlueDream",
+    "Equalizer": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/equalizer/equalizerPedal",
+    "Compressor": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/compressor_effect/compressor",
+    "BigMuff": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/BigMuffBypass2",
+    "Distorder": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/Distorder",
+    "Humbucker": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/humbucker",
+    "ReverbRaw": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/ReverbRaw",
+    "StereoChorus": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/stereoChorus",
+    "GreyHoleRaw":"https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/GreyHoleRaw",
+    "OwlShimmer":"https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/OwlShimmer",
+    "OwlDirty":"https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/OwlDirty",
+    "OverdriveRix":"https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/OverdriveRix",
+    "WahBaby":"https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/WahBabyMichel",
+    "OscTube": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/OscTube",
+    "SweetWah": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/SweetWah",
+    "PhaserRix": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/PhaserRix",
+    "SmoothDelay": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/SmoothDelay",
+    "CubicSound": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/CubicSound",
+    "FaustEQ": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/FaustEQ",
+    "FaustDisto": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/FaustDisto",
+    "TSDisto": "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/ts9disto",
+    "StonePhaser":  "https://mainline.i3s.unice.fr/WebAudioPluginBank/jordan-SINTES/stonephaser"
+  }
+}
+
+try:
+    with open(local_wams_path, 'r') as f:
+        current_wams = json.load(f)
+except FileNotFoundError:
+    current_wams = []
+
+new_urls = list(wasabi_repo['plugs'].values())
+
+# Normalize URLs (add trailing slash if missing, just in case, though the code shouldn't be too aggressive)
+# For now, exact string matching is safer to avoid duplicates if they differ only by slash
+# Actually, let's just use exact match to avoid duplicates.
+
+for url in new_urls:
+    if url not in current_wams:
+        # Also check with/without trailing slash to be sure
+        alt_url = url[:-1] if url.endswith('/') else url + '/'
+        if alt_url not in current_wams:
+             current_wams.append(url)
+
+with open(local_wams_path, 'w') as f:
+    json.dump(current_wams, f, indent=2)
+
+print(f"Updated wams.json with {len(new_urls)} potential new plugins.")

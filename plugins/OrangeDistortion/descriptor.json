@@ -1,0 +1,12 @@
+{
+    "name": "OrangeDistortion",
+    "vendor": "Buka / WAM2",
+    "description": "DS-1 Style Distortion",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "ds1.png",
+    "keywords": [
+        "🔥 Distorsión / Overdrive / Fuzz"
+    ],
+    "isInstrument": false
+}

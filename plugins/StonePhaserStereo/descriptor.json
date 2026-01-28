@@ -1,11 +1,12 @@
 {
-  "name": "StonePhaser",
-  "vendor": "WebAudioModule",
-  "description": "StonePhaser Stereo written in Faust",
+  "name": "StonePhaserStereo",
+  "vendor": "Buka / WAM2",
+  "description": "Classic Phase Shifter",
   "version": "1.0.0",
   "apiVersion": "2.0.0",
-  "thumbnail": "screenshot.png",
-  "keywords": ["faust"],
-  "isInstrument": false,
-  "website": ""
+  "thumbnail": "stonephaser.png",
+  "keywords": [
+    "🎛️ Modulación (Chorus / Flanger / Phaser / Trem / Rotary)"
+  ],
+  "isInstrument": false
 }

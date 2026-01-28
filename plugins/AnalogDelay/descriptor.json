@@ -1,0 +1,12 @@
+{
+    "name": "AnalogDelay",
+    "vendor": "Buka / WAM2",
+    "description": "Analog Bucket Brigade Delay",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "delay.png",
+    "keywords": [
+        "🌀 Delay / Reverb"
+    ],
+    "isInstrument": false
+}

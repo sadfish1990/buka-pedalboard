@@ -1,0 +1,12 @@
+{
+    "name": "MetalZone",
+    "vendor": "Buka / WAM2",
+    "description": "High Gain Metal Distortion",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "mt2.png",
+    "keywords": [
+        "🔥 Distorsión / Overdrive / Fuzz"
+    ],
+    "isInstrument": false
+}

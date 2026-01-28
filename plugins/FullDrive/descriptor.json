@@ -1,0 +1,12 @@
+{
+    "name": "FullDrive",
+    "vendor": "Buka / WAM2",
+    "description": "Fulltone Drive Clone",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "fulldrive.png",
+    "keywords": [
+        "🔥 Distorsión / Overdrive / Fuzz"
+    ],
+    "isInstrument": false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "MetalMachine",
+  "vendor": "Faust",
+  "description": "Metal Machine Amp",
+  "version": "1.0.0",
+  "apiVersion": "2.0.0",
+  "thumbnail": "metalmachine_v2.png",
+  "keywords": [
+    "🎸 Amplificadores / Preamps / Cabs"
+  ],
+  "isInstrument": false
+}

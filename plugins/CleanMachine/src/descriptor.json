@@ -1,0 +1,13 @@
+{
+  "name": "CleanMachine",
+  "vendor": "WebAudioModule",
+  "description": "CleanMachine (based on DistoMachine)",
+  "version": "1.0.0",
+  "apiVersion": "2.0.0",
+  "thumbnail": "default.png",
+  "keywords": [
+    "amplifier"
+  ],
+  "isInstrument": false,
+  "website": ""
+}

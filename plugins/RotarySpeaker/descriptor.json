@@ -1,0 +1,12 @@
+{
+    "name": "RotarySpeaker",
+    "vendor": "Buka / WAM2",
+    "description": "Leslie Speaker Sim",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "rotary.png",
+    "keywords": [
+        "🎛️ Modulación (Chorus / Flanger / Phaser / Trem / Rotary)"
+    ],
+    "isInstrument": false
+}

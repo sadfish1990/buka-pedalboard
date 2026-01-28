@@ -1,0 +1,12 @@
+{
+    "name": "JazzChorus",
+    "vendor": "Buka / WAM2",
+    "description": "Stereo Clean Amp with Dimensional Chorus",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "jazzchorus.png",
+    "keywords": [
+        "🎸 Amplificadores / Preamps / Cabs"
+    ],
+    "isInstrument": false
+}

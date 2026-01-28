@@ -1,0 +1,12 @@
+{
+    "name": "CryBaby",
+    "vendor": "Buka / WAM2",
+    "description": "Wah Pedal",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "crybaby.png",
+    "keywords": [
+        "🎚️ Filtros / Wah / Envelope"
+    ],
+    "isInstrument": false
+}

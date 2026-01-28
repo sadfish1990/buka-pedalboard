@@ -1,0 +1,12 @@
+{
+    "name": "RectoDual",
+    "vendor": "Buka / WAM2",
+    "description": "Modern High Gain Rectified Amp",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "rectodual.png",
+    "keywords": [
+        "🎸 Amplificadores / Preamps / Cabs"
+    ],
+    "isInstrument": false
+}

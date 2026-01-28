@@ -1,0 +1,12 @@
+{
+    "name": "MetalX",
+    "vendor": "Buka / WAM2",
+    "description": "Fullbore Metal Distortion",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "metalx.png",
+    "keywords": [
+        "🔥 Distorsión / Overdrive / Fuzz"
+    ],
+    "isInstrument": false
+}

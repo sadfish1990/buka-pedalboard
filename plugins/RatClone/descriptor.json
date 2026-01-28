@@ -1,0 +1,12 @@
+{
+    "name": "RatClone",
+    "vendor": "Buka / WAM2",
+    "description": "ProCo Rat Clone",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "rat.png",
+    "keywords": [
+        "🔥 Distorsión / Overdrive / Fuzz"
+    ],
+    "isInstrument": false
+}

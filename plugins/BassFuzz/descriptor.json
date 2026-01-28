@@ -1,0 +1,12 @@
+{
+    "name": "BassFuzz",
+    "vendor": "Buka / WAM2",
+    "description": "Bass Big Muff Clone",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "bassfuzz.png",
+    "keywords": [
+        "🔥 Distorsión / Overdrive / Fuzz"
+    ],
+    "isInstrument": false
+}

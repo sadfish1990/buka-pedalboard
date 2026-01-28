@@ -1,0 +1,12 @@
+{
+    "name": "MemoryBrigade",
+    "vendor": "Buka / WAM2",
+    "description": "Memory Man Delay",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "dmm.png",
+    "keywords": [
+        "🌀 Delay / Reverb"
+    ],
+    "isInstrument": false
+}

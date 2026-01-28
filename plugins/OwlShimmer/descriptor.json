@@ -1,11 +1,12 @@
 {
     "name": "OwlShimmer",
-    "vendor": "Faust IDE",
-    "description": "A WAM written in Faust with a generated GUI",
+    "vendor": "Faust",
+    "description": "Shimmer Reverb",
     "version": "1.0.0",
-    "apiVersion": "1.0.0",
-    "thumbnail": "default.png",
-    "keywords": ["faust"],
-    "isInstrument": false,
-    "website": ""
+    "apiVersion": "2.0.0",
+    "thumbnail": "shimmer.png",
+    "keywords": [
+        "🌀 Delay / Reverb"
+    ],
+    "isInstrument": false
 }

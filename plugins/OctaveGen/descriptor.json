@@ -1,0 +1,12 @@
+{
+    "name": "OctaveGen",
+    "vendor": "Buka / WAM2",
+    "description": "Octave Generator",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "octave.png",
+    "keywords": [
+        "🎼 Pitch / Harmonizer"
+    ],
+    "isInstrument": false
+}

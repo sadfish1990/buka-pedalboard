@@ -1,0 +1,12 @@
+{
+    "name": "SVT-Classic",
+    "vendor": "Buka / WAM2",
+    "description": "Legendary Tube Bass Head",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "svt.png",
+    "keywords": [
+        "🎸 Amplificadores / Preamps / Cabs"
+    ],
+    "isInstrument": false
+}

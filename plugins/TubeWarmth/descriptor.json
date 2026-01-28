@@ -1,0 +1,12 @@
+{
+    "name": "TubeWarmth",
+    "vendor": "Buka / WAM2",
+    "description": "Valve Saturation",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "tube.png",
+    "keywords": [
+        "🔥 Distorsión / Overdrive / Fuzz"
+    ],
+    "isInstrument": false
+}

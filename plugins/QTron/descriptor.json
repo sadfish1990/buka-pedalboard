@@ -1,0 +1,12 @@
+{
+    "name": "QTron",
+    "vendor": "Buka / WAM2",
+    "description": "Envelope Filter",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "qtron.png",
+    "keywords": [
+        "🎚️ Filtros / Wah / Envelope"
+    ],
+    "isInstrument": false
+}

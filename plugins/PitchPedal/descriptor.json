@@ -1,0 +1,12 @@
+{
+    "name": "PitchPedal",
+    "vendor": "Buka / WAM2",
+    "description": "Whmammy Pitch Shifter",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "whammy.png",
+    "keywords": [
+        "🎼 Pitch / Harmonizer"
+    ],
+    "isInstrument": false
+}

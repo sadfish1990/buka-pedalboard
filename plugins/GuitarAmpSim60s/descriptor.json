@@ -1,11 +1,12 @@
 {
   "name": "GuitarAmpSim60s",
-  "vendor": "Michel Buffa",
-  "description": "TODO",
+  "vendor": "Faust",
+  "description": "Guitar Amp Sim 60s",
   "version": "1.0.0",
   "apiVersion": "2.0.0",
-  "thumbnail": "screenshot.png",
-  "keywords": ["faust", "amplifier"],
-  "isInstrument": false,
-  "website": ""
+  "thumbnail": "ampsim60.png",
+  "keywords": [
+    "🎸 Amplificadores / Preamps / Cabs"
+  ],
+  "isInstrument": false
 }

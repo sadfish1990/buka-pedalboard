@@ -1,0 +1,12 @@
+{
+    "name": "BassEnvelope",
+    "vendor": "Buka / WAM2",
+    "description": "Bass Filter Twin Clone",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "envelope.png",
+    "keywords": [
+        "🎚️ Filtros / Wah / Envelope"
+    ],
+    "isInstrument": false
+}

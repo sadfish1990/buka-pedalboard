@@ -1,0 +1,12 @@
+{
+    "name": "Brit30",
+    "vendor": "Buka / WAM2",
+    "description": "British Invasion Class A Chime",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "brit30.png",
+    "keywords": [
+        "🎸 Amplificadores / Preamps / Cabs"
+    ],
+    "isInstrument": false
+}

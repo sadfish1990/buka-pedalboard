@@ -1,0 +1,12 @@
+{
+    "name": "NoiseKiller",
+    "vendor": "Buka / WAM2",
+    "description": "Noise Gate",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "gate.png",
+    "keywords": [
+        "🎚️ EQ / Dinámica / Utilidades"
+    ],
+    "isInstrument": false
+}

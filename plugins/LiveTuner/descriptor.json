@@ -1,0 +1,12 @@
+{
+    "name": "LiveTuner",
+    "vendor": "Buka / WAM2",
+    "description": "Chromatic Tuner",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "tuner_real.png",
+    "keywords": [
+        "🎚️ EQ / Dinámica / Utilidades"
+    ],
+    "isInstrument": false
+}

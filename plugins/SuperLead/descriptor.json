@@ -1,0 +1,12 @@
+{
+    "name": "SuperLead",
+    "vendor": "Buka / WAM2",
+    "description": "High Gain Lead Amplifier",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "superlead.png",
+    "keywords": [
+        "🎸 Amplificadores / Preamps / Cabs"
+    ],
+    "isInstrument": false
+}

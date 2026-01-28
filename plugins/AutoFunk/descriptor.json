@@ -1,0 +1,12 @@
+{
+    "name": "AutoFunk",
+    "vendor": "Buka / WAM2",
+    "description": "Auto Wah Funk",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "af9.png",
+    "keywords": [
+        "🎚️ Filtros / Wah / Envelope"
+    ],
+    "isInstrument": false
+}

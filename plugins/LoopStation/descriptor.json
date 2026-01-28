@@ -1,0 +1,12 @@
+{
+    "name": "LoopStation",
+    "vendor": "Buka / WAM2",
+    "description": "Loop Station",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "loop.png",
+    "keywords": [
+        "🎚️ EQ / Dinámica / Utilidades"
+    ],
+    "isInstrument": false
+}

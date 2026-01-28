@@ -1,0 +1,12 @@
+{
+    "name": "BassSynth",
+    "vendor": "Buka / WAM2",
+    "description": "Bass Micro Synth Clone",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "bass_syn.png",
+    "keywords": [
+        "🎹 Synth / Generadores"
+    ],
+    "isInstrument": false
+}

@@ -1,0 +1,12 @@
+{
+    "name": "AnalogSynth",
+    "vendor": "Buka / WAM2",
+    "description": "Acid Bass Synth",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "acid.png",
+    "keywords": [
+        "🎹 Synth / Generadores"
+    ],
+    "isInstrument": true
+}

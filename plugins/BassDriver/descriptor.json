@@ -1,0 +1,12 @@
+{
+    "name": "BassDriver",
+    "vendor": "Buka / WAM2",
+    "description": "Tech21 SansAmp Clone",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "bassdriver.png",
+    "keywords": [
+        "🎸 Amplificadores / Preamps / Cabs"
+    ],
+    "isInstrument": false
+}

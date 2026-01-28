@@ -1,0 +1,12 @@
+{
+    "name": "ModernBass",
+    "vendor": "Buka / WAM2",
+    "description": "Darkglass Style Bass Preamp",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "modernbass.png",
+    "keywords": [
+        "🎸 Amplificadores / Preamps / Cabs"
+    ],
+    "isInstrument": false
+}

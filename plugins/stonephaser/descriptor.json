@@ -1,11 +1,12 @@
 {
-    "name": "Faust Stone Phaser",
-    "vendor": "Faust IDE",
-    "description": "A WAM written in Faust with a generated GUI",
+    "name": "stonephaser",
+    "vendor": "Faust",
+    "description": "Stone Phaser",
     "version": "1.0.0",
-    "apiVersion": "1.0.0",
-    "thumbnail": "default.png",
-    "keywords": ["faust"],
-    "isInstrument": false,
-    "website": ""
+    "apiVersion": "2.0.0",
+    "thumbnail": "sphaser.png",
+    "keywords": [
+        "🎛️ Modulación (Chorus / Flanger / Phaser / Trem / Rotary)"
+    ],
+    "isInstrument": false
 }

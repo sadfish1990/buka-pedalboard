@@ -1,11 +1,12 @@
 {
-  "name": "Equalizer",
-  "vendor": "Wasabi",
-  "description": "TODO",
+  "name": "graphicEqualizer",
+  "vendor": "Faust",
+  "description": "Graphic Equalizer",
   "version": "1.0.0",
   "apiVersion": "2.0.0",
-  "thumbnail": "screenshot.png",
-  "keywords": ["equalizer", "mixing"],
-  "isInstrument": false,
-  "website": ""
+  "thumbnail": "eq.png",
+  "keywords": [
+    "🎚️ EQ / Dinámica / Utilidades"
+  ],
+  "isInstrument": false
 }

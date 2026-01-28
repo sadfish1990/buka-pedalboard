@@ -1,0 +1,12 @@
+{
+    "name": "PitchShifter",
+    "vendor": "Buka / WAM2",
+    "description": "Simple Pitch Shifter",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "pshift.png",
+    "keywords": [
+        "🎼 Pitch / Harmonizer"
+    ],
+    "isInstrument": false
+}

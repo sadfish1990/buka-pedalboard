@@ -1,0 +1,12 @@
+{
+    "name": "Brit800",
+    "vendor": "Buka / WAM2",
+    "description": "The Sound of Rock & Metal",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "brit800.png",
+    "keywords": [
+        "🎸 Amplificadores / Preamps / Cabs"
+    ],
+    "isInstrument": false
+}

@@ -1,0 +1,12 @@
+{
+    "name": "SimpleIR",
+    "vendor": "Buka / WAM2",
+    "description": "Impulse Response Loader",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "ir_loader.png",
+    "keywords": [
+        "🎸 Amplificadores / Preamps / Cabs"
+    ],
+    "isInstrument": false
+}

@@ -1,0 +1,12 @@
+{
+    "name": "VintageTrem",
+    "vendor": "Buka / WAM2",
+    "description": "Optical Tremolo",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "tremolo.png",
+    "keywords": [
+        "🎛️ Modulación (Chorus / Flanger / Phaser / Trem / Rotary)"
+    ],
+    "isInstrument": false
+}

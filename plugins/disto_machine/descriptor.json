@@ -1,0 +1,12 @@
+{
+  "name": "disto_machine",
+  "vendor": "Faust",
+  "description": "Disto Machine",
+  "version": "1.0.0",
+  "apiVersion": "2.0.0",
+  "thumbnail": "disto_v2.png",
+  "keywords": [
+    "🎸 Amplificadores / Preamps / Cabs"
+  ],
+  "isInstrument": false
+}

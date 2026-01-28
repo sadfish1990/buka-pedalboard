@@ -1,0 +1,12 @@
+{
+  "name": "CleanMachine",
+  "vendor": "Faust",
+  "description": "Clean Machine Amp",
+  "version": "1.0.0",
+  "apiVersion": "2.0.0",
+  "thumbnail": "cleanmachine_v2.png",
+  "keywords": [
+    "🎸 Amplificadores / Preamps / Cabs"
+  ],
+  "isInstrument": false
+}

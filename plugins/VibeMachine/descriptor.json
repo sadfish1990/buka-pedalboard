@@ -1,0 +1,12 @@
+{
+    "name": "VibeMachine",
+    "vendor": "Buka / WAM2",
+    "description": "Univibe Clone",
+    "version": "1.0.0",
+    "apiVersion": "2.0.0",
+    "thumbnail": "vibe.png",
+    "keywords": [
+        "🎛️ Modulación (Chorus / Flanger / Phaser / Trem / Rotary)"
+    ],
+    "isInstrument": false
+}
