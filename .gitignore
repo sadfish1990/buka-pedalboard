@@ -8,4 +8,4 @@ backup/
 temp_examples/
 wam2/
 *.webp
-.gemini/
+.gemini/backups/
