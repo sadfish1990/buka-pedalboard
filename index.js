@@ -26,6 +26,8 @@ app.get("/plugins.json", (req, res) => {
   res.json(plugins);
 });
 
+app.use("/src", express.static(path.join(__dirname, "./PedalBoard/src")));
+
 app.use("/", express.static(path.join(__dirname, "./PedalBoard")));
 
 app.use("/plugins", express.static(path.join(__dirname, "./plugins")));
